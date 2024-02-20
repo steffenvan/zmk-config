@@ -71,10 +71,10 @@
 
         navigation {
             bindings = <
-&trans  &trans  &trans      &trans            &trans    &trans       &trans      &trans          &trans          &trans        &trans     &trans
-&trans  &trans  &kp LSHIFT  &kp LEFT_CONTROL  &kp LGUI  &trans       &caps_word  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans
-&trans  &trans  &trans      &trans            &trans    &trans       &trans      &trans          &trans          &trans        &trans     &trans
-                            &kp TILDE         &kp TAB   &kp GRAVE    &trans      &trans          &trans
+&trans  &trans  &trans      &trans            &trans    &trans       &trans      &trans              &trans          &trans        &trans         &trans
+&trans  &trans  &kp LSHIFT  &kp LEFT_CONTROL  &kp LGUI  &trans       &caps_word  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT      &trans
+&trans  &trans  &trans      &trans            &trans    &trans       &trans      &kp LA(LEFT_ARROW)  &trans          &trans        &kp LA(RIGHT)  &trans
+                            &kp TILDE         &kp TAB   &kp GRAVE    &trans      &trans              &trans
             >;
         };
 
@@ -98,10 +98,10 @@
 
         button {
             bindings = <
-&trans  &trans  &trans      &trans      &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &mt LGUI X  &mt LGUI C  &mt LGUI V  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans      &trans      &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                            &trans      &trans      &trans    &trans  &trans  &trans
+&trans  &trans  &kp LG(L)  &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LG(Z)  &kp LG(Y)  &kp LG(A)  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                           &trans     &trans     &trans    &trans  &trans  &trans
             >;
         };
     };
